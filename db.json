@@ -1,37 +1,29 @@
 {
-  "forecastId": "FRC-2025-W07",
-  "week": 7,
-  "part": "PIN-16F-2024",
   "forecast": [
     {
-      "day": "Segunda-feira",
-      "expected": 130,
-      "confidence": 0.88,
-      "trend": "alta"
-    },
-    {
-      "day": "Terça-feira",
-      "expected": 150,
-      "confidence": 0.90,
-      "trend": "alta"
-    },
-    {
-      "day": "Quarta-feira",
-      "expected": 142,
-      "confidence": 0.87,
-      "trend": "estável"
-    },
-    {
-      "day": "Quinta-feira",
-      "expected": 160,
-      "confidence": 0.91,
-      "trend": "alta"
-    },
-    {
-      "day": "Sexta-feira",
-      "expected": 155,
-      "confidence": 0.89,
-      "trend": "alta"
+      "forecastId": "PDR-WK-2025-08",
+      "oem": "Montadora AutoPrime – Unidade Taubaté",
+      "week": "2025-W08",
+      "predictions": [
+        {
+          "partId": "PIN-16F-2024",
+          "description": "Pino do Pistão 1.6 Flex",
+          "expectedDemand": 520,
+          "safetyStock": 150
+        },
+        {
+          "partId": "VLV-20T-2024",
+          "description": "Válvula Termostática 2.0 Turbo",
+          "expectedDemand": 140,
+          "safetyStock": 60
+        },
+        {
+          "partId": "COR-ALT-01",
+          "description": "Correia do Alternador",
+          "expectedDemand": 310,
+          "safetyStock": 100
+        }
+      ]
     }
   ]
 }
